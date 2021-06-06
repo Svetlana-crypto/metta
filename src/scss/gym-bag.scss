@@ -1,0 +1,22 @@
+.gym-bag{
+  background: url("../image/gym-bag/Rectangle (17).png");
+  height: 650px;
+  position: relative;
+
+  &__content{
+    position: absolute;
+    right: 187px;
+    bottom: 118px;
+
+    &-speech{
+      @include font (32px, bold, 40px);
+      letter-spacing: 0.02px;
+      color: #14c5c4;
+    }
+    &-author{
+      @include font(18px, bold, 29px);
+      letter-spacing: 0.24px;
+      color: #202727;
+    }
+  }
+}

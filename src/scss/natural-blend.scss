@@ -1,0 +1,13 @@
+.natural-blend {
+  padding: 97px 0;
+
+
+  &__block {
+    margin-bottom: 40px;
+
+    &-title {
+    @include font(32px, 700 ,22px);
+    }
+
+  }
+}

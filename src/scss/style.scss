@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sanc-serif;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+$primary-color:  #193ee9;
+
+@mixin font($fs,$fw,$lh){
+  font-size: $fs ;
+  font-weight: $fw ;
+  line-height: $lh ;
+
+}
+@mixin flex ($jc){
+  display:flex;
+  align-items: center;
+  justify-content: $jc;
+
+}
+
+
+.main {
+  &__title {
+    @include  font(32px, 700, 40px);
+    margin-bottom: 36px;
+  }
+  &__description {
+    @include  font(16px, normal, 32px);
+    margin-bottom: 27px;
+  }
+  &__link {
+    @include  font(16px, 700, 26px);
+    color: #000000;
+    text-transform: uppercase;
+  }
+}
+
+
+
+
+
+/*header*/
+
+
+/*brands*/
+.content {
+  &__block-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 36px;
+
+  }
+
+  &__block-description {
+    line-height: 32px;
+    margin-bottom: 27px;
+
+  }
+
+  &__block-link {
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+  }
+}
+
+
+/*main*/
+
+@import "header";
+@import "metta";
+@import "natural-blend";
+@import "brands";
+@import "energy";
+@import "gym-bag";
+@import "improve";
+@import "inbox";
+@import "drink";
+@import "footer";

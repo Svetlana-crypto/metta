@@ -1,0 +1,49 @@
+.metta {
+  position: relative;
+  height: 685px;
+  background-image: url("../image/metta/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  &-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 85px;
+    padding-bottom: 40px;
+
+  }
+
+  &__content {
+    @include flex(center);
+    flex-direction: column;
+
+
+
+    &-title {
+      @include  font(40px, 700, 49px);
+      margin-bottom: 38px;
+      font-size: 40px;
+      font-weight: 700;
+      letter-spacing: 0.6px;
+    }
+
+    &-link {
+      @include font(16px, 700, 26px);
+      text-transform: uppercase;
+      background-color: $primary-color;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+  }
+  &__bottom-line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -137px;
+    margin: auto;
+  }
+
+}

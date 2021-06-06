@@ -1,0 +1,19 @@
+.inbox{
+  padding: 119px 0 211px;
+  display: flex;
+  justify-content: center;
+
+
+  &__content{
+    text-align: center;
+    color: #202727;
+    &-title{
+      @include font(32px, bold, 40px);
+      letter-spacing: 0.02px;
+      margin-bottom: 22px;
+    }
+    &__description{
+      @include font(16px, 300, 26px);
+    }
+  }
+}

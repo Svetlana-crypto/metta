@@ -1,0 +1,29 @@
+.header {
+  @include  flex(space-between);
+  padding: 55px;
+  background-color: #ffffff;
+
+  &__menu-button {
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__span {
+    display: block;
+    width: 48px;
+    height: 8px;
+    background-color:  $primary-color;
+  }
+
+  &__account-avatar {
+    @include flex(center);
+    color: #ffffff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: $primary-color;
+  }
+
+}

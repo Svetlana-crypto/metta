@@ -1,0 +1,25 @@
+.footer{
+  background-color: #eafcfc;
+  height: 164px;
+
+  &__content{
+    display: flex;
+  }
+  &__img{
+    padding-top: 17px;
+  }
+  &__block{
+    display: flex;
+    height: 164px;
+    align-items: center;
+    margin-left: 65px;
+
+  }
+  &__link{
+    @include font(32px, bold, 45px);
+    color: #14c5c4;
+  }
+}
+
+
+//color:inherit;word-break:normal}code{font-size:.875em;color:#d63384;

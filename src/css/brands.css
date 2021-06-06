@@ -1,0 +1,28 @@
+.brands {
+  background-color: #eafcfc;
+  padding: 79px 0 89px 0;
+}
+.brands__content {
+  max-width: 930px;
+  margin: 0 auto;
+  width: 100%;
+}
+.brands__content-text {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  color: #14c5c4;
+}
+.brands__content-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 95px;
+}
